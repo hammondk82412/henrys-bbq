@@ -74,7 +74,7 @@ input {
 }
 
 .text-box {
-	background-color: rgba(45, 28, 18, 0.9);
+	background-color: white;
     color: white;
     padding: 30px;
     border-radius: 12px;
