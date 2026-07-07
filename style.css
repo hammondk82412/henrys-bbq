@@ -68,7 +68,7 @@ tr:nth-child(even) {
 
 }
 
-input {
+.text-box {
 	width: 300px;
 	margin: 40px;
 	padding: 35px;
