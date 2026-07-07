@@ -82,10 +82,8 @@ tr:nth-child(even) {
     padding-left: 0;
 }
 
-.fire-list {
-    list-style: none;
-    padding-left: 0;
-	content: "🔥";
+.fire-list li::before {
+    content: "🔥";
     margin-right: 10px;
 }
 
@@ -98,8 +96,9 @@ tr:nth-child(even) {
 }
 
 .slide {
-    width: 70%;
-	height: 70%
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: none;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,.3);
