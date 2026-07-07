@@ -76,3 +76,8 @@ tr:nth-child(even) {
 	border: 3px;
 
 }
+
+.fire-list li::before {
+    content: "🔥";
+    margin-right: 10px;
+}
