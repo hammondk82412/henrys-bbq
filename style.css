@@ -84,3 +84,24 @@ tr:nth-child(even) {
     margin-right: 10px;
 }
 
+.grilled-steaks.png {
+    width: 300px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grilled-steaks.png:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.banana-pudding.png {
+    width: 300px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banana-pudding.png:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
