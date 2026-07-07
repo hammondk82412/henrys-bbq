@@ -16,10 +16,9 @@
 <nav> <a href="index.html">Home</a>   |   <a href="menu.html">Menu</a>   |   <a href="contact.html">Contact</a>   |   <a href="events-catering.html">Events/Catering</a> </nav> 
 <div>
 <h1>MENU</h1>
-<img src="logo-banner.png" width="1920px;">
 	
 <div class="slideshow-container">
-    <img class="slide" src="grilled-steak.png" alt="Grilled Steaks">
+    <img class="slide" src="grilled-steaks.png" alt="Grilled Steaks">
     <img class="slide" src="banana-pudding.png" alt="Banana Pudding">
     <img class="slide" src="cater-food.png" alt="Let us cater your event!">
 </div>
@@ -201,32 +200,25 @@
 </table>
 </div>
 <footer>@2026 BBQ Restaurant. All rights reserved. Contact us at <a href="mailto:info@bbqrestaurant.com">info@bbqrestaurant.com</a></footer>
+
 <script>
-
 let slideIndex = 0;
-
 showSlides();
-
 function showSlides() {
-
     let slides = document.getElementsByClassName("slide");
-
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-
+	
     slideIndex++;
-
     if (slideIndex > slides.length) {
         slideIndex = 1;
     }
-
+	
     slides[slideIndex - 1].style.display = "block";
-
     setTimeout(showSlides, 2000);
-
 }
-
+	
 </script>
 </body>
 </html>
