@@ -84,24 +84,16 @@ tr:nth-child(even) {
     margin-right: 10px;
 }
 
-.grilled-steaks.png {
-    width: 300px;
-    border-radius: 12px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.slideshow-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    position: relative;
 }
 
-.grilled-steaks.png:hover {
-    transform: scale(1.08);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-}
-
-.banana-pudding.png {
-    width: 300px;
-    border-radius: 12px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.banana-pudding.png:hover {
-    transform: scale(1.08);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+.slide {
+    width: 100%;
+    display: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.3);
 }
