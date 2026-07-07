@@ -85,16 +85,16 @@ tr:nth-child(even) {
 }
 
 .slideshow-container {
-    width: 50%;
-	height: 500px;
-    max-width: 500px;
+    width: 70%;
+	height: 700px;
+    max-width: 700px;
     margin: 40px auto;
     position: relative;
 }
 
 .slide {
-    width: 50%;
-	height: 50%
+    width: 70%;
+	height: 70%
     display: none;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,.3);
