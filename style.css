@@ -84,8 +84,3 @@ tr:nth-child(even) {
     margin-right: 10px;
 }
 
-.center-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
