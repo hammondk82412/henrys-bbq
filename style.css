@@ -1,0 +1,73 @@
+body {
+	background-image: url('chalkboard.png');
+	background-size: cover;
+
+}
+
+header {
+	opacity: 80%;
+	width: 100%;
+	font-size: 20px;
+	font-family: open-sans, 
+
+
+}
+
+footer {
+	background-color: #ffa63f;
+	width: 1920px;
+	height: 50px;
+	padding: 10px;
+	margin: auto;
+
+}
+
+nav {
+	background-color: #ffa63f;
+	height: 50px;
+	padding: 20px;
+	font-size: 20px;
+	font-family: open-sans, arial, helvetica;
+
+}
+
+h1 {
+	font-family: veneer, helvetica, arial;
+	color: #e90000;
+	text-align: center;
+
+}
+
+p {
+	font-family: arial, helvetica, sans-serif;
+
+}
+
+tr {
+	border: 1px thin black;
+
+}
+
+.menu {
+	background-color: #ffa63f;
+	width: 1000px;
+	padding: 10px;
+	border: 2px black;
+	margin: auto;
+
+}
+
+tr:nth-child(odd) {
+	background-color: #ffc07f;
+
+}
+
+tr:nth-child(even) {
+	background-color: #ffe5aa;
+
+}
+
+input {
+	width: 300px;
+
+}
