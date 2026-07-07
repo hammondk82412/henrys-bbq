@@ -81,3 +81,8 @@ tr:nth-child(even) {
     content: "🔥";
     margin-right: 10px;
 }
+
+.fire-list {
+    list-style: none;
+    padding-left: 0;
+}
