@@ -77,12 +77,9 @@ tr:nth-child(even) {
 
 }
 
-.fire-list li::before {
-    content: "🔥";
-    margin-right: 10px;
-}
-
 .fire-list {
     list-style: none;
     padding-left: 0;
+	content: "🔥";
+    margin-right: 10px;
 }
