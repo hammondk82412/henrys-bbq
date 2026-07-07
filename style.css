@@ -80,6 +80,11 @@ tr:nth-child(even) {
 .fire-list {
     list-style: none;
     padding-left: 0;
+}
+
+.fire-list {
+    list-style: none;
+    padding-left: 0;
 	content: "🔥";
     margin-right: 10px;
 }
