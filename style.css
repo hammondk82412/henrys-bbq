@@ -72,13 +72,13 @@ tr:nth-child(even) {
 
 }
 
-.text-box {
-	width: 300px;
-	margin: 40px;
-	padding: 35px;
-	border-radius: 15px;
-	border: 3px;
-
+.text-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 2px solid #e90000;
+    border-radius: 8px;
+    font-size: 16px;
 }
 
 .fire-list {
