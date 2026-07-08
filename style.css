@@ -112,3 +112,10 @@ tr:nth-child(even) {
     width: 500px;
     margin-left: 40px;
 }
+
+.text-box label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
