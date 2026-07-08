@@ -97,6 +97,9 @@ tr:nth-child(even) {
     max-width: 600px;
     margin: 40px auto;
     position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .slide {
