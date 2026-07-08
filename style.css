@@ -73,7 +73,8 @@ tr:nth-child(even) {
 }
 
 .text-box input {
-    width: 90%;
+    width: 400px;
+	height: 200px;
     padding: 10px;
     margin: 8px 0 15px;
     border: 2px solid #e90000;
