@@ -95,7 +95,7 @@ tr:nth-child(even) {
     width: 45%;
 	height: 600px;
     max-width: 600px;
-    margin: 40px auto;
+    margin-right: 40px;
     position: relative;
 	display: flex;
 	justify-content: flex-end;
@@ -125,12 +125,6 @@ tr:nth-child(even) {
     margin-top: 15px;
     margin-bottom: 5px;
     font-weight: bold;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .text {
