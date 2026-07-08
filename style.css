@@ -100,6 +100,7 @@ tr:nth-child(even) {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	float: right;
 }
 
 .slide {
