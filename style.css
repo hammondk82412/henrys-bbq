@@ -16,17 +16,21 @@ header {
 footer {
 	background-color: #ffa63f;
 	width: 1920px;
-	height: 50px;
-	padding: 10px;
+	height: 30px;
+	padding: 20px;
+	font-size: 10px;
 	margin: auto;
+	font-family: open-sans, arial, helvetica;
 
 }
 
 nav {
 	background-color: #ffa63f;
+	width: 1920px;
 	height: 30px;
 	padding: 20px;
 	font-size: 20px;
+	margin: auto;
 	font-family: open-sans, arial, helvetica;
 
 }
