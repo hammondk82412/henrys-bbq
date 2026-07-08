@@ -4,13 +4,12 @@ body {
 
 }
 
-header {
+.logo-banner {
 	opacity: 80%;
-	width: 1000px;
-	font-size: 20px;
-	font-family: open-sans, arial, helvetica;
-
-
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 footer {
