@@ -92,7 +92,7 @@ tr:nth-child(even) {
 }
 
 .slideshow-container {
-    width: 60%;
+    width: 45%;
 	height: 600px;
     max-width: 600px;
     margin: 40px auto;
@@ -125,4 +125,14 @@ tr:nth-child(even) {
     margin-top: 15px;
     margin-bottom: 5px;
     font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 45%;
 }
