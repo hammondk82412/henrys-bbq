@@ -72,13 +72,12 @@ tr:nth-child(even) {
 }
 
 .text-box input {
-    width: 200px;
-	height: 50px;
+    width: 100%;
     padding: 10px;
     margin: 8px 0 15px;
     border: 2px solid #e90000;
     border-radius: 8px;
-    font-size: 16px;
+    box-sizing: border-box;
 }
 
 .fire-list {
@@ -138,8 +137,10 @@ tr:nth-child(even) {
 .text-box textarea {
     width: 100%;
     padding: 10px;
+    margin: 8px 0 15px;
     border: 2px solid #e90000;
     border-radius: 8px;
     font-size: 16px;
     resize: vertical;
+    box-sizing: border-box;
 }
