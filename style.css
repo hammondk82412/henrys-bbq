@@ -131,7 +131,15 @@ tr:nth-child(even) {
     justify-content:space-between;
     align-items:flex-start;
     width:90%;
-    margin:auto;
+    margin:40px auto;
     gap:40px;
 }
 
+.text-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e90000;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+}
