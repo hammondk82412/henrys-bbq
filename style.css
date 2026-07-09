@@ -94,8 +94,7 @@ tr:nth-child(even) {
     width:45%;
     max-width:600px;
     height:600px;
-    position:relative;
-	border: 3px solid lime;
+    position:relative;	
 }
 
 .slide{
@@ -124,7 +123,6 @@ tr:nth-child(even) {
 
 .text-box{
     width:45%;
-	border: 3px solid blue;
 }
 
 .contact-container{
@@ -134,7 +132,6 @@ tr:nth-child(even) {
     width:90%;
     margin:40px auto;
     gap:40px;
-	border: 3px solid red;
 }
 
 .text-box textarea {
