@@ -97,10 +97,8 @@ tr:nth-child(even) {
     max-width: 600px;
     margin-right: 40px;
     position: relative;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	float: right;
+	margin-left: auto;
+
 }
 
 .slide {
@@ -112,8 +110,9 @@ tr:nth-child(even) {
     box-shadow: 0 10px 25px rgba(0,0,0,.3);
 	position: absolute;
     right: 50px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0;
+    left: 0;
+
 }
 
 .text-container {
