@@ -21,7 +21,7 @@ footer {
 	padding: 20px;
 	font-size: 15px;
 	text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
 	display: flex;
 	font-family: "Open Sans", Arial, Helvetica;
 }
@@ -188,8 +188,30 @@ table {
 
 th,
 td {
-    border: 2px solid #444;
-    padding: 15px;
+    padding: 16px;
+}
+
+.menu tr:not(:last-child) td {
+    border-bottom: 1px solid #ddd;
+}
+
+.menu tr:nth-child(2) {
+    background-color: #ffa63f;
+    color: black;
+    font-weight: bold;
+	text-align: left;
+    line-height: 1.5;
+}
+
+.menu td:nth-child(2) {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.menu td:last-child {
+    color: #e90000;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .text-container {
