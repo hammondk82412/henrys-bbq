@@ -264,3 +264,46 @@ td {
     letter-spacing: 2px;
     padding: 18px;
 }
+
+.catering-form {
+    max-width: 850px;
+    margin: 40px auto;
+    background: rgba(255,245,220,.95);
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,.25);
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 250px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e90000;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #e90000;
+    font-weight: bold;
+}
+
+.catering-form button {
+    display: block;
+    margin: 30px auto 0;
+}
