@@ -278,3 +278,11 @@ td {
     border-color: #ffa63f;
     box-shadow: 0 0 8px rgba(255,166,63,.5);
 }
+
+.event-list {
+    background-color: #ffe5aa;
+    padding: 20px 30px;
+    border-radius: 12px;
+    width: fit-content;
+    margin: 30px auto;
+}
