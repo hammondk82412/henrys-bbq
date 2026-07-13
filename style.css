@@ -284,5 +284,11 @@ td {
     padding: 20px 30px;
     border-radius: 12px;
     width: 100%;
-    margin: 30px auto;
+	display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    radial-gradient: #ffa63f 17.8%, #e90000 100.2%;
+    font-weight: bold;
+    margin: 40px auto;
 }
