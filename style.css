@@ -1,13 +1,9 @@
 body {
-	background-image: url('chalkboard.png');
-	background-size: cover;
-	text-align: center;
-	display: flex;
-	height: 100vh;
-	width:100%;
-	justify-content: center;
-	align-items: center;
-	padding: 0 20px;
+    background-image: url("chalkboard.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: "Open Sans", Arial, sans-serif;
 }
 
 .logo-banner {
@@ -37,7 +33,9 @@ nav {
 	font-size: 20px;
 	margin: auto;
 	font-family: open-sans, arial, helvetica;
-	display: inline-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: relative;
 	overflow: hidden;
 	border-radius: 40px;
@@ -142,7 +140,6 @@ tr {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     text-align: center;
 }
 
@@ -157,12 +154,13 @@ button {
 	position: relative;
 	background: #e90000;
 	transition: 0.1s;
+}
 
-button: :after {
+button::after {
 	content: '';
 	width: 100%;
 	height: 100%;
-	background-image: radial-gradiant( circle farthest-corner at 10% 20%, (#ffa63f) 17.8%, (#e90000) 100.2% );
+	background-image: radial-gradient( circle farthest-corner at 10% 20%, (#ffa63f) 17.8%, (#e90000) 100.2% );
 	filter: blur(15px);
 	z-index: -1;
 	position: absolute;
@@ -177,21 +175,14 @@ button:active {
 }
 
 table {
-	width: 40%;
-	border-collapse: collapse;
-}
-
-table:even {
-	background-color: #ffc07f
-}
-
-table:odd {
-	background-color: #ffe5aa
+	width: 90%;
+	max-width: 1000px;
+    margin: 30px auto;
 }
 	
 th, td {
 	padding: 15px;
 	text-align: center;
-	font: 10px;
+	font-size: 10px;
 }
 
