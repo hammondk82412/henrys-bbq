@@ -100,11 +100,6 @@ tr {
     box-shadow:0 10px 25px rgba(0,0,0,.3);
 }
 
-.text-container {
-    width: 500px;
-    margin-left: 40px;
-}
-
 .text-box label {
     display: block;
     margin-top: 15px;
