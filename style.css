@@ -24,9 +24,9 @@ footer {
 	height: 30px;
 	padding: 20px;
 	font-size: 10px;
-	margin: auto;
+	text-align: center;
+    margin-top: 40px;
 	font-family: open-sans, arial, helvetica;
-
 }
 
 nav {
@@ -62,13 +62,11 @@ tr {
 
 }
 
-.menu {
-	background-color: #ffa63f;
-	width: 1000px;
-	padding: 10px;
-	border: 1px black;
-	margin: auto;
-
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
 }
 
 .text-box input {
