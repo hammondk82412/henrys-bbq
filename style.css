@@ -144,3 +144,11 @@ tr:nth-child(even) {
     resize: vertical;
     box-sizing: border-box;
 }
+
+.absolute-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
