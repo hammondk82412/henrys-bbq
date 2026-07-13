@@ -34,6 +34,17 @@ nav {
 
 }
 
+.navigation {
+	position: relative;
+	display: flex;
+	gap: 30px;
+}
+
+.navigation li {
+	list-style: none;
+	position: relative;
+}
+
 h1 {
 	font-family: veneer, helvetica, arial;
 	color: #e90000;
