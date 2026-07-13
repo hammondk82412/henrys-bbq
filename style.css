@@ -62,16 +62,6 @@ tr {
 
 }
 
-tr:nth-child(odd) {
-	background-color: #ffc07f;
-
-}
-
-tr:nth-child(even) {
-	background-color: #ffe5aa;
-
-}
-
 .text-box input {
     width: 100%;
     padding: 10px;
