@@ -86,7 +86,6 @@ tr {
     max-width: 600px;
     height: 400px;
     position: relative;
-	width: 100%;
 }
 
 .slide{
@@ -194,12 +193,23 @@ td {
 .text-container {
     flex: 1;
     min-width: 300px;
+    max-width: 500px;
     color: white;
-    text-align: left;
 }
 
 .text-container p {
     text-align: left;
     line-height: 1.7;
     color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    flex-wrap: wrap;
 }
