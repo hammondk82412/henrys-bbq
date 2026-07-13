@@ -81,16 +81,6 @@ p {
     box-sizing: border-box;
 }
 
-.fire-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-.fire-list li::before {
-    content: "🔥";
-    margin-right: 10px;
-}
-
 .slideshow-container {
     flex: 1;
     max-width: 600px;
