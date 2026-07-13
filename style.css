@@ -255,6 +255,7 @@ td {
     padding: 18px;
 }
 
+.contact-form,
 .catering-form {
     max-width: 850px;
     margin: 40px auto;
@@ -293,6 +294,7 @@ td {
     font-weight: bold;
 }
 
+.contact-form button,
 .catering-form button {
     display: block;
     margin: 30px auto 0;
