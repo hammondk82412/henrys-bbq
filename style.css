@@ -283,6 +283,6 @@ td {
     background-color: #ffe5aa;
     padding: 20px 30px;
     border-radius: 12px;
-    width: fit-content;
+    width: 100%;
     margin: 30px auto;
 }
