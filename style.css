@@ -307,3 +307,14 @@ td {
     display: block;
     margin: 30px auto 0;
 }
+
+.contact-info {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.contact-info strong {
+    color: #ffa63f;
+}
