@@ -1,7 +1,13 @@
 body {
 	background-image: url('chalkboard.png');
 	background-size: cover;
-
+	text-align: center;
+	display: flex;
+	height: 100vh;
+	width:100%;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
 }
 
 .logo-banner {
@@ -23,15 +29,59 @@ footer {
 
 }
 
-nav {
+.nav {
 	background-color: #ffa63f;
-	width: 100%;
+	max-width: 100%;
 	height: 30px;
-	padding: 20px;
+	padding: 0 20px;
 	font-size: 20px;
 	margin: auto;
 	font-family: open-sans, arial, helvetica;
+	display: inline-flex;
+	position: relative;
+	overflow: hidden;
+	border-radius: 40px;
+	box-shadow: 0 10px 40px hex(#e90000);
+}
 
+.nav-item {
+	color: #ffa63f;
+	padding: 20px;
+	text-decoration: none;
+	transition: 0.3s;
+	margin: 0 6px;
+	z-index: 1;
+	font-family: open-sans, arial, helvetica;
+	font-weight: 500;
+	position: relative;
+}
+
+.nav-item:before {
+	content: "";
+	position: absolute;
+	botton: -6px;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background-color: #ffe5aa;
+	border-radius: 8px 8px 0 0;
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.nav-item:not(.is-action):hover {
+	color: #e90000;
+}
+
+.nav-indicator {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 4px;
+	transition: 0.4px;
+	height: 5px;
+	z-index: 1;
+	border-radius: 8px 8px 0 0;
 }
 
 h1 {
