@@ -72,15 +72,6 @@ p {
 	background-color: #ffe5aa;
 }
 
-.text-box input {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0 15px;
-    border: 2px solid #e90000;
-    border-radius: 8px;
-    box-sizing: border-box;
-}
-
 .slideshow-container {
     flex: 1;
     max-width: 600px;
@@ -99,39 +90,6 @@ p {
     display:none;
     border-radius:15px;
     box-shadow:0 10px 25px rgba(0,0,0,.3);
-}
-
-.text-box label {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.text-box{
-    width:45%;
-}
-
-.contact-container {
-    display: flex;
-    justify-content: center;
-    margin: 40px auto;
-}
-
-.text-box {
-    width: 100%;
-    max-width: 500px;
-}
-
-.text-box textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0 15px;
-    border: 2px solid #e90000;
-    border-radius: 8px;
-    font-size: 16px;
-    resize: vertical;
-    box-sizing: border-box;
 }
 
 .absolute-center {
@@ -255,8 +213,7 @@ td {
     padding: 18px;
 }
 
-.contact-form,
-.catering-form {
+.form-card {
     max-width: 850px;
     margin: 40px auto;
     background: rgba(255,245,220,.95);
@@ -294,8 +251,7 @@ td {
     font-weight: bold;
 }
 
-.contact-form button,
-.catering-form button {
+.form-card button {
     display: block;
     margin: 30px auto 0;
 }
