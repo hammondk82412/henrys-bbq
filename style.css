@@ -189,6 +189,14 @@ table {
 	border-collapse: collapse;
 }
 
+table:even {
+	background-color: #ffc07f
+}
+
+table:odd {
+	background-color: #ffe5aa
+}
+	
 th, td {
 	padding: 15px;
 	text-align: center;
