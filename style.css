@@ -57,7 +57,7 @@ tr {
 	background-color: #ffa63f;
 	width: 1000px;
 	padding: 10px;
-	border: 2px black;
+	border: 1px black;
 	margin: auto;
 
 }
@@ -183,3 +183,15 @@ button:active {
 	background: radial-gradient( circle farthest corner at 10% 20%, (#ffa63f) 17.8%, (#e90000) 100.2% );
 	transition: 0.5s;
 }
+
+table {
+	width: 40%;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 15px;
+	text-align: center;
+	font: 10px;
+}
+
