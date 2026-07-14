@@ -334,3 +334,7 @@ td {
     height: 500px;
     border: none;
 }
+
+.menu tr:nth-child(2) th:last-child {
+    text-align: right;
+}
