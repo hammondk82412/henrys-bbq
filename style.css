@@ -4,6 +4,8 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     font-family: "Open Sans", Arial, Helvetica;
+	background-position: center;
+    background-attachment: fixed;
 }
 
 .logo-banner {
