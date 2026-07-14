@@ -196,6 +196,17 @@ td {
     width: 45%;
 }
 
+.menu th {
+    background-color: #ffa63f;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.menu tr:first-child th {
+    background-color: transparent;
+    font-size: 2rem;
+}
+
 .text-container {
     flex: 1;
     min-width: 300px;
