@@ -43,11 +43,22 @@ nav a {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.2s ease;
+    padding: 10px 18px;
+    border-radius: 8px;
+    background-size: 200% 200%;
+    transition: all 0.4s ease;
 }
 
 nav a:hover {
-    color: #e90000;
+    color: white;
+    background: linear-gradient(
+        90deg,
+        #ffa63f,
+        #ff6b35,
+        #e90000
+    );
+    background-size: 200% 200%;
+    background-position: right center;
 }
 
 h1 {
@@ -291,4 +302,5 @@ td {
     radial-gradient: #ffa63f 17.8%, #e90000 100.2%;
     font-weight: bold;
     margin: 40px auto;
+	
 }
