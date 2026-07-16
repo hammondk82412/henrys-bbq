@@ -352,3 +352,21 @@ td {
 .menu tr:nth-child(2) th:last-child {
     text-align: right;
 }
+
+testimonials {
+	text-align: center;
+	background-color: #e90000;
+	color: white;
+}
+
+location {
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+hours {
+	text-align: right;
+	color: white;
+	background-color: black;
+}
