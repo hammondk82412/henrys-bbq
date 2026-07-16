@@ -343,13 +343,13 @@ td {
 }
 
 .map-container {
-    width: 100%;
+    width: 50%;
     margin-top: 40px;
 }
 
 .map-container iframe {
     display: block;
-    width: 100%;
+    width: 50%;
     height: 500px;
     border: none;
 	border-radius: 15px;
