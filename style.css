@@ -362,21 +362,37 @@ td {
 }
 
 .testimonials {
-	text-align: center;
-	background-color: #e90000;
-	color: white;
+    background-color: #e90000;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,.25);
 }
 
-.location {
-	text-align: center;
-	color: white;
-	background-color: black;
-}
-
+.location,
 .hours {
-	text-align: right;
-	color: white;
-	background-color: black;
+    background-color: #222;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
+}
+
+.info-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
 }
 
 html {
