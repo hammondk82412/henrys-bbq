@@ -6,6 +6,7 @@ body {
     font-family: "Open Sans", Arial, Helvetica;
 	background-position: center;
     background-attachment: fixed;
+	animation: fadeIn .6s ease;
 }
 
 .logo-banner {
@@ -41,6 +42,7 @@ nav {
     top: 0;
     z-index: 1000;
 	font-family: "Open Sans", Arial, Helvetica;
+	box-shadow: 0 3px 10px rgba(0,0,0,.2);
 }
 
 nav a {
@@ -55,14 +57,10 @@ nav a {
 
 nav a:hover {
     color: white;
-    background: linear-gradient(
-        90deg,
-        #ffa63f,
-        #ff6b35,
-        #e90000
-    );
+    background: linear-gradient( 90deg, #ffa63f, #ff6b35, #e90000 );
     background-size: 200% 200%;
     background-position: right center;
+    transform: translateY(-2px);
 }
 
 h1 {
@@ -135,6 +133,7 @@ button {
 button:hover {
     background: #c50000;
     transform: translateY(-2px);
+	box-shadow: 0 8px 20px rgba(0,0,0,.25);
 }
 
 button::after {
@@ -331,10 +330,9 @@ td {
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
-    radial-gradient: #ffa63f 17.8%, #e90000 100.2%;
+    background: radial-gradient( circle, #ffa63f 17.8%, #e90000 100.2% );
     font-weight: bold;
     margin: 40px auto;
-	
 }
 
 .map-container {
@@ -347,6 +345,9 @@ td {
     width: 100%;
     height: 500px;
     border: none;
+	border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
 }
 
 .menu tr:nth-child(2) th:last-child {
@@ -369,4 +370,24 @@ td {
 	text-align: right;
 	color: white;
 	background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.menu tr:nth-child(even):not(:first-child):not(:nth-child(2)) {
+    background: rgba(255,166,63,.08);
 }
