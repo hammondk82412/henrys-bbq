@@ -65,11 +65,10 @@ nav a:hover {
 }
 
 h1 {
-	font-family: Veneer, Helvetica, Arial, sans-serif;
-	color: #e90000;
-	text-align: center;
-	font-size: 4rem;
-
+    font-family: Veneer, Helvetica, Arial, sans-serif;
+    color: #e90000;
+    text-align: center;
+    font-size: clamp(2.5rem, 6vw, 4rem);
 }
 
 p {
@@ -453,4 +452,21 @@ html {
         flex-direction: column;
         gap: 20px;
     }
+}
+
+.testimonials,
+.location,
+.hours,
+.form-card,
+.menu-container {
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.testimonials:hover,
+.location:hover,
+.hours:hover,
+.form-card:hover,
+.menu-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.25);
 }
