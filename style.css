@@ -353,19 +353,19 @@ td {
     text-align: right;
 }
 
-testimonials {
+.testimonials {
 	text-align: center;
 	background-color: #e90000;
 	color: white;
 }
 
-location {
+.location {
 	text-align: center;
 	color: white;
 	background-color: black;
 }
 
-hours {
+.hours {
 	text-align: right;
 	color: white;
 	background-color: black;
