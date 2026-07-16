@@ -27,6 +27,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+	box-sizing: border-box;
 }
 
 nav {
@@ -108,6 +109,11 @@ p {
     display:none;
     border-radius:15px;
     box-shadow:0 10px 25px rgba(0,0,0,.3);
+	transition: transform .4s ease, opacity .8s ease;
+}
+
+.slide:hover {
+    transform: scale(1.02);
 }
 
 .absolute-center {
@@ -333,6 +339,7 @@ td {
     background: radial-gradient( circle, #ffa63f 17.8%, #e90000 100.2% );
     font-weight: bold;
     margin: 40px auto;
+	color: white;
 }
 
 .map-container {
@@ -390,4 +397,44 @@ html {
 
 .menu tr:nth-child(even):not(:first-child):not(:nth-child(2)) {
     background: rgba(255,166,63,.08);
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-container {
+        max-width: 100%;
+    }
+
+    .slideshow-container {
+        max-width: 100%;
+        height: 250px;
+    }
+
+    .menu-container,
+    .form-card {
+        width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    .features {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
