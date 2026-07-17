@@ -484,3 +484,27 @@ html {
     padding: 10px;
     z-index: 1000;
 }
+
+.menu-button {
+	display: inline-block;
+    background-color: #e90000;
+    color: white;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+}
+
+.menu-button:hover {
+    background-color: #c50000;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}
+
+.menu-button:focus {
+    outline: 3px solid #ffa63f;
+    outline-offset: 3px;
+}
