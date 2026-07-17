@@ -470,3 +470,17 @@ html {
     transform: translateY(-5px);
     box-shadow: 0 15px 35px rgba(0,0,0,.25);
 }
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 10px;
+}
+
+.skip-link:focus {
+    left: 20px;
+    background: white;
+    color: black;
+    padding: 10px;
+    z-index: 1000;
+}
